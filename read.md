@@ -15,6 +15,8 @@ Here are the game controls:
 
 4. If you missed 10 times it will be game over!
 
+5. check out the availble PNG files for circuit examples and the outputs! The green ones are all CX gate created by c.
+
 hey我寫了一個量子小遊戲
 如果有興趣的話可以幫我試玩一下XD  不過我都只有周末會寫
 然後看缺什麼package就裝什麼，應該只需要裝qiskit跟pygame

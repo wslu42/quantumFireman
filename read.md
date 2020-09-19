@@ -1,8 +1,19 @@
-1. Use arrow to move paddle between 3 qubits
-2. Use c/x/z to add one CX/X/H gate to the qubit where paddle stays
-3. Hit space to load the quantum circuit and move bucket to "catch" the falling blocks
-4. If you missed 3 times it will be game over!
+Hey I wrote a games based on the idea of https://github.com/HuangJunye/QPong by Qiskit advocate Junye Huang!
 
+In this game, I tried to redefine the mechanism such that we forced user to use quantum gates to perform something cannot be achieved by using binary operation, which is essentially using X gate along.
+
+Here are the game controls:
+
+1. Use arrow to move paddle between 3 qubits
+
+2. Use c/x/z to add one CX/X/H gate to the qubit where paddle stays.
+2.1. Noticed that c(CX) operate like this: set current location where paddle is to be the control and the right one next to the current qubit to be control.
+2.2. Noticed that v(CX) operate like this: set current location where paddle is to be the control and the left one next to the current qubit to be control.
+2.3. Noticed that h works like z.
+
+3. Hit space to load the quantum circuit and move bucket to "catch" the falling humanoid blocks
+
+4. If you missed 10 times it will be game over!
 
 hey我寫了一個量子小遊戲
 如果有興趣的話可以幫我試玩一下XD  不過我都只有周末會寫
@@ -31,3 +42,6 @@ cx gate則是完成所謂量子糾纏的閘(entanglement)，實際的作用有�
 
 https://www.youtube.com/watch?v=_MzocuKu18A
 忘了說我打算把它改成跟這個遊戲致敬！
+
+Consultants:
+Junye Huang, Dimo Tsai, LiLo Wang 

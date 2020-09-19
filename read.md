@@ -31,3 +31,6 @@ cx gate則是完成所謂量子糾纏的閘(entanglement)，實際的作用有�
 
 https://www.youtube.com/watch?v=_MzocuKu18A
 忘了說我打算把它改成跟這個遊戲致敬！
+
+Consultants:
+Junye Huang, Dimo Tsai, LiLo Wang 

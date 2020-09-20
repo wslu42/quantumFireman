@@ -6,13 +6,17 @@ Here are the game controls:
 
 Use arrow to move paddle between 3 qubits
 
-Use c/x/z to add one CX/X/H gate to the qubit where paddle stays. 2.1. Noticed that c(CX) operate like this: set current location where paddle is to be the control and the right one next to the current qubit to be control. 2.2. Noticed that v(CX) operate like this: set current location where paddle is to be the control and the left one next to the current qubit to be control. 2.3. Noticed that h works like z.
+1. Use c/x/z to add one CX/X/H gate to the qubit where paddle stays. 
 
-Hit space to load the quantum circuit and move bucket to "catch" the falling humanoid blocks
+2.1. Noticed that c(CX) operate like this: set current location where paddle is to be the control and the right one next to the current qubit to be control. 
+2.2. Noticed that v(CX) operate like this: set current location where paddle is to be the control and the left one next to the current qubit to be control. 
+2.3. Noticed that h works like z.
 
-If you missed 10 times it will be game over!
+3. Hit space to load the quantum circuit and move bucket to "catch" the falling humanoid blocks
 
-check out the availble PNG files for circuit examples and the outputs! The green ones are all CX gate created by c.
+4. If you missed 10 times it will be game over!
+
+5. check out the availble PNG files for circuit examples and the outputs! The green ones are all CX gate created by c.
 
 hey我寫了一個量子小遊戲 如果有興趣的話可以幫我試玩一下XD 不過我都只有周末會寫 然後看缺什麼package就裝什麼，應該只需要裝qiskit跟pygame
 

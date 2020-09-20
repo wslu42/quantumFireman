@@ -8,9 +8,7 @@ Use arrow to move paddle between 3 qubits
 
 1. Use c/x/z to add one CX/X/H gate to the qubit where paddle stays. 
 
-2.1. Noticed that c(CX) operate like this: set current location where paddle is to be the control and the right one next to the current qubit to be control. 
-2.2. Noticed that v(CX) operate like this: set current location where paddle is to be the control and the left one next to the current qubit to be control. 
-2.3. Noticed that h works like z.
+2. Noticed that c(CX) operate like this: set current location where paddle is to be the control and the right one next to the current qubit to be control. Noticed that v(CX) operate like this: set current location where paddle is to be the control and the left one next to the current qubit to be control. Noticed that h works like z.
 
 3. Hit space to load the quantum circuit and move bucket to "catch" the falling humanoid blocks
 

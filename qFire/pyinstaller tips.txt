@@ -1,0 +1,10 @@
+pyinstaller qFire.py --onefile --noconsole
+
+A file with .spec as extension should be generated
+Now add the following lines to the beginning of the spec file :
+
+import sys
+sys.setrecursionlimit(5000)
+
+Now run the spec file using :
+pyinstaller filename.spec

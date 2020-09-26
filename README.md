@@ -1,20 +1,32 @@
 Hey I wrote a games (qFire.ipynb) based on the idea of https://github.com/HuangJunye/QPong by Qiskit advocate Junye Huang!
 
-In this game, I tried to redefine the mechanism such that we forced user to use quantum gates to perform something cannot be achieved by using binary operation, which is essentially using X gate along.
+In this game, I tried to force users to use quantum gates to perform something cannot be done by using binary operation along.
+
+There are three modes in the game: sandbox, training, and challenger. Once you load the game by running all the cells in one of the jupyter notebooks (qFire or qShooter), you immediately enter the sandbox mode. In this mode you can first familiar yourself with the control and check how quantum gates work with the list of controls on the right as a reference. Once you feel comfortable with the interface hit 2 to enter the next stage.
+
+The next stage starts with training mode. In this mode we will generate states from easy ones to advanced ones such as Bell states and GHZ states. You mission is to use quantum gates to assemble a quantum circuit which gives a set of possible states after measurement matching to the falling humanoid blocks. In the training mode we design 5 blocks in each category (binary/superposition/Bell/GHZ), and after 20 blocks we enter the challenger mode and the game statistics will be reset. Try to collect as many blocks as you can before missed 10 blocks in the challenger mode!
+
+Before we leave, you should know a bit about the measurement. Since we don’t have unlimited resources we only use 16 shots in each step while you press space to load the circuit, and only the states with counts more than 3 will be considered when we map the states to the position of buckets. As a result, there are two consequences:
+1.	It is highly unlikely to catch the blocks by trivially putting Hadamard gates to each qubit. Yes potentially we generate all possible states, but due to the lower limit of counts it results in uncontrollable collapse of states and most of the time you will end up with no bucket after mapping!
+2.	To maximize the chance of getting desired states, try to match the exact state set by putting together the right quantum circuit! Also prepare for the possibility of missing some expected states since we have limited measurement shots. Hey it is supposed to be a quantum game!
+
+Finally, the difference between qFire and qShooter is about how familiar yourself to this game. If you are new to the UI I would suggest start with qFire, but if you are looking for a quick practice just hop on to the qShooter. Enjoy and let me know your thoughts to make it better!
+
+///
 
 Here are the game controls:
 
 Use arrow to move paddle between 3 qubits
 
-1. Use c/x/z to add one CX/X/H gate to the qubit where paddle stays. 
+1. Use c(v)/x/z(h) to add one CX/X/H gate to the qubit where paddle stays. 
 
 2. Noticed that c(CX) operate like this: set current location where paddle is to be the control and the right one next to the current qubit to be control. Noticed that v(CX) operate like this: set current location where paddle is to be the control and the left one next to the current qubit to be control. Noticed that h works like z.
 
 3. Hit space to load the quantum circuit and move bucket to "catch" the falling humanoid blocks
 
-4. If you missed 10 times it will be game over!
+4. If you missed 10 times it will be game over in the challenger mode! Press 2 again can reset game statistics in challenger mode.
 
-5. check out the availble PNG files for circuit examples and the outputs! The green ones are all CX gate created by c.
+5. Check out the availble PNG files for circuit examples and the outputs! The green ones are all CX gate created by c.
 
 hey我寫了一個量子小遊戲 如果有興趣的話可以幫我試玩一下XD 不過我都只有周末會寫 然後看缺什麼package就裝什麼，應該只需要裝qiskit跟pygame
 

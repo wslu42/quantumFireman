@@ -26,7 +26,7 @@ Use arrow to move paddle between 3 qubits
 
 4. If you missed 10 times it will be game over in the challenger mode! Press 2 again can reset game statistics in challenger mode.
 
-5. Check out the availble PNG files for circuit examples and the outputs! The green ones are all CX gate created by c.
+5. Check out the availble PNG files under folder "ref" for circuit examples and the outputs! The green ones are all CX gate created by c.
 
 hey我寫了一個量子小遊戲 如果有興趣的話可以幫我試玩一下XD 不過我都只有周末會寫 然後看缺什麼package就裝什麼，應該只需要裝qiskit跟pygame
 

@@ -1,4 +1,4 @@
-Hey I wrote a games based on the idea of https://github.com/HuangJunye/QPong by Qiskit advocate Junye Huang!
+Hey I wrote a games (qFire.ipynb) based on the idea of https://github.com/HuangJunye/QPong by Qiskit advocate Junye Huang!
 
 In this game, I tried to redefine the mechanism such that we forced user to use quantum gates to perform something cannot be achieved by using binary operation, which is essentially using X gate along.
 

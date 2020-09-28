@@ -12,6 +12,10 @@ Before you start, you should know a bit about how the measurement works in this 
 
 Finally, the difference between qFire and qShooter is about how familiar yourself to this game. If you are new to the UI I would suggest start with qFire, but if you are looking for a quick practice just hop on to the qShooter. Enjoy and let me know your thoughts to make it better!
 
+Personal high-score on qShooter. Enjoy the game!
+
+![image](https://github.com/wslu42/quantumFireman/blob/master/hc.png)
+
 ///
 
 Here are the game controls:

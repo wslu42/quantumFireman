@@ -1,6 +1,6 @@
 Hey I wrote a games (qFire.ipynb) based on the idea of https://github.com/HuangJunye/QPong by Qiskit advocate Junye Huang!
 
-https://www.youtube.com/watch?v=zUahbUUSu2Q
+https://www.youtube.com/watch?v=YCEv22Ma-vM
 
 In this game, I tried to force users to use quantum gates to perform something cannot be done by using binary operation along.
 

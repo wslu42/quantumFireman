@@ -1,6 +1,9 @@
 Hey I wrote a games (qFire.ipynb) based on the idea of https://github.com/HuangJunye/QPong by Qiskit advocate Junye Huang!
 
+# Gameplay
 https://www.youtube.com/watch?v=YCEv22Ma-vM
+# itch.io submission
+https://wslu42.itch.io/disentangle-the-loop
 
 In this game, I tried to force users to use quantum gates to perform something cannot be done by using binary operation along.
 

@@ -1,3 +1,9 @@
+# Update
+
+This game is no longer maintained, please move to https://github.com/wslu42/qShooter/ for my continued efforts and more recent updates!
+
+# Archived info
+
 Hey I wrote a games (qFire.ipynb) based on the idea of https://github.com/HuangJunye/QPong by Qiskit advocate Junye Huang!
 
 # Gameplay

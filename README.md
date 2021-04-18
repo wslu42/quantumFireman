@@ -1,3 +1,17 @@
+# Update
+
+This game is no longer maintained, please move to https://github.com/wslu42/qShooter/ for my continued efforts and more recent updates!
+
+# Archived info
+
+
+## Gameplay
+https://www.youtube.com/watch?v=YCEv22Ma-vM
+## itch.io submission
+https://wslu42.itch.io/disentangle-the-loop
+
+## Background
+
 Hey I wrote a games (qFire.ipynb) based on the idea of https://github.com/HuangJunye/QPong by Qiskit advocate Junye Huang!
 
 In this game, I tried to force users to use quantum gates to perform something cannot be done by using binary operation along.
